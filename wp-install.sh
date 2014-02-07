@@ -36,7 +36,7 @@ mv WordPress/wp-config-sample.php WordPress/wp-config.php
 curl http://downloads.wordpress.org/plugin/sqlite-integration.1.5.zip --create-dirs -o WordPress/wp-content/plugins/sqlite-integration.1.5.zip
 unzip WordPress/wp-content/plugins/sqlite-integration.1.5.zip -d WordPress/wp-content/plugins
 rm WordPress/wp-content/plugins/sqlite-integration.1.5.zip
-cp WordPress/wp-content/plugins/sqlite-integration/db.php WordPress/wp-content/plugins/
+cp WordPress/wp-content/plugins/sqlite-integration/db.php WordPress/wp-content/
 
 # Get WordPress Router
 git clone https://gist.github.com/3801087.git

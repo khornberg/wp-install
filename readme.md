@@ -3,7 +3,9 @@
 PHP 5.4 builtin server + SQLite Integration = easy WordPress development
 
 This script makes use of [SQLite Integration](http://wordpress.org/plugins/sqlite-integration) and this
-[router.php](https://gist.github.com/3801087). 
+[router.php](https://gist.github.com/3801087).  
+
+SQLite Integration is not perfect; you will run into complications.
 
 ## Usage
 Clone this repo to the folder you want: `git clone https://github.com/khornberg/wp-install.git /awesome-project`  
